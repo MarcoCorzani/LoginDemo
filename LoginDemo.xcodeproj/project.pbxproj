@@ -8,11 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		A9A735D21A3704E60099E199 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A735D11A3704E60099E199 /* AppDelegate.swift */; };
-		A9A735D41A3704E60099E199 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A735D31A3704E60099E199 /* ViewController.swift */; };
+		A9A735D41A3704E60099E199 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A735D31A3704E60099E199 /* SignUpViewController.swift */; };
 		A9A735D71A3704E60099E199 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A735D51A3704E60099E199 /* Main.storyboard */; };
 		A9A735D91A3704E60099E199 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A735D81A3704E60099E199 /* Images.xcassets */; };
 		A9A735DC1A3704E60099E199 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A735DA1A3704E60099E199 /* LaunchScreen.xib */; };
 		A9A735E81A3704E60099E199 /* LoginDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A735E71A3704E60099E199 /* LoginDemoTests.swift */; };
+		A9A735F21A3705290099E199 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A735F11A3705290099E199 /* AudioToolbox.framework */; };
+		A9A735F41A37053A0099E199 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A735F31A37053A0099E199 /* Foundation.framework */; };
+		A9A735F61A37054B0099E199 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A735F51A37054B0099E199 /* CoreGraphics.framework */; };
+		A9A735F81A3705590099E199 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A735F71A3705590099E199 /* CoreLocation.framework */; };
+		A9A735FA1A3705680099E199 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A735F91A3705680099E199 /* libz.dylib */; };
+		A9A735FC1A3705770099E199 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A735FB1A3705770099E199 /* MobileCoreServices.framework */; };
+		A9A735FE1A3705940099E199 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A735FD1A3705940099E199 /* QuartzCore.framework */; };
+		A9A736001A3705A20099E199 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A735FF1A3705A20099E199 /* Security.framework */; };
+		A9A736021A3705AE0099E199 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A736011A3705AE0099E199 /* StoreKit.framework */; };
+		A9A736041A3705BE0099E199 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A736031A3705BE0099E199 /* SystemConfiguration.framework */; };
+		A9A7360A1A3706AB0099E199 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A736061A3706AB0099E199 /* Bolts.framework */; };
+		A9A7360B1A3706AB0099E199 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A736071A3706AB0099E199 /* Parse.framework */; };
+		A9A7360C1A3706AB0099E199 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A736081A3706AB0099E199 /* ParseFacebookUtils.framework */; };
+		A9A7360D1A3706AB0099E199 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A736091A3706AB0099E199 /* ParseUI.framework */; };
+		A9A736111A3707660099E199 /* testDataCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A736101A3707660099E199 /* testDataCustom.m */; };
+		A9A736131A377BAB0099E199 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A736121A377BAB0099E199 /* ForgotPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +45,30 @@
 		A9A735CC1A3704E60099E199 /* LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A735D01A3704E60099E199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9A735D11A3704E60099E199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9A735D31A3704E60099E199 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9A735D31A3704E60099E199 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A9A735D61A3704E60099E199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9A735D81A3704E60099E199 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A9A735DB1A3704E60099E199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A9A735E11A3704E60099E199 /* LoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A735E61A3704E60099E199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9A735E71A3704E60099E199 /* LoginDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDemoTests.swift; sourceTree = "<group>"; };
+		A9A735F11A3705290099E199 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A9A735F31A37053A0099E199 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9A735F51A37054B0099E199 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9A735F71A3705590099E199 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A9A735F91A3705680099E199 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A9A735FB1A3705770099E199 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A9A735FD1A3705940099E199 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A9A735FF1A3705A20099E199 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A9A736011A3705AE0099E199 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A9A736031A3705BE0099E199 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A9A736061A3706AB0099E199 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		A9A736071A3706AB0099E199 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		A9A736081A3706AB0099E199 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		A9A736091A3706AB0099E199 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		A9A7360F1A3707660099E199 /* LoginDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoginDemo-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		A9A736101A3707660099E199 /* testDataCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = testDataCustom.m; path = ../testDataCustom.m; sourceTree = "<group>"; };
+		A9A736121A377BAB0099E199 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +76,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A736041A3705BE0099E199 /* SystemConfiguration.framework in Frameworks */,
+				A9A736021A3705AE0099E199 /* StoreKit.framework in Frameworks */,
+				A9A7360D1A3706AB0099E199 /* ParseUI.framework in Frameworks */,
+				A9A736001A3705A20099E199 /* Security.framework in Frameworks */,
+				A9A735FE1A3705940099E199 /* QuartzCore.framework in Frameworks */,
+				A9A735FC1A3705770099E199 /* MobileCoreServices.framework in Frameworks */,
+				A9A735FA1A3705680099E199 /* libz.dylib in Frameworks */,
+				A9A735F81A3705590099E199 /* CoreLocation.framework in Frameworks */,
+				A9A735F61A37054B0099E199 /* CoreGraphics.framework in Frameworks */,
+				A9A7360A1A3706AB0099E199 /* Bolts.framework in Frameworks */,
+				A9A735F41A37053A0099E199 /* Foundation.framework in Frameworks */,
+				A9A7360B1A3706AB0099E199 /* Parse.framework in Frameworks */,
+				A9A735F21A3705290099E199 /* AudioToolbox.framework in Frameworks */,
+				A9A7360C1A3706AB0099E199 /* ParseFacebookUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +106,11 @@
 		A9A735C31A3704E60099E199 = {
 			isa = PBXGroup;
 			children = (
+				A9A7360E1A3706D30099E199 /* Framework */,
 				A9A735CE1A3704E60099E199 /* LoginDemo */,
 				A9A735E41A3704E60099E199 /* LoginDemoTests */,
 				A9A735CD1A3704E60099E199 /* Products */,
+				A9A736051A3706AB0099E199 /* parse-library-1.5.0 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +126,11 @@
 		A9A735CE1A3704E60099E199 /* LoginDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A9A736101A3707660099E199 /* testDataCustom.m */,
+				A9A7360F1A3707660099E199 /* LoginDemo-Bridging-Header.h */,
 				A9A735D11A3704E60099E199 /* AppDelegate.swift */,
-				A9A735D31A3704E60099E199 /* ViewController.swift */,
+				A9A735D31A3704E60099E199 /* SignUpViewController.swift */,
+				A9A736121A377BAB0099E199 /* ForgotPasswordViewController.swift */,
 				A9A735D51A3704E60099E199 /* Main.storyboard */,
 				A9A735D81A3704E60099E199 /* Images.xcassets */,
 				A9A735DA1A3704E60099E199 /* LaunchScreen.xib */,
@@ -110,6 +162,34 @@
 				A9A735E61A3704E60099E199 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9A736051A3706AB0099E199 /* parse-library-1.5.0 */ = {
+			isa = PBXGroup;
+			children = (
+				A9A736061A3706AB0099E199 /* Bolts.framework */,
+				A9A736071A3706AB0099E199 /* Parse.framework */,
+				A9A736081A3706AB0099E199 /* ParseFacebookUtils.framework */,
+				A9A736091A3706AB0099E199 /* ParseUI.framework */,
+			);
+			path = "parse-library-1.5.0";
+			sourceTree = "<group>";
+		};
+		A9A7360E1A3706D30099E199 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A9A736031A3705BE0099E199 /* SystemConfiguration.framework */,
+				A9A736011A3705AE0099E199 /* StoreKit.framework */,
+				A9A735FF1A3705A20099E199 /* Security.framework */,
+				A9A735FD1A3705940099E199 /* QuartzCore.framework */,
+				A9A735FB1A3705770099E199 /* MobileCoreServices.framework */,
+				A9A735F91A3705680099E199 /* libz.dylib */,
+				A9A735F71A3705590099E199 /* CoreLocation.framework */,
+				A9A735F51A37054B0099E199 /* CoreGraphics.framework */,
+				A9A735F31A37053A0099E199 /* Foundation.framework */,
+				A9A735F11A3705290099E199 /* AudioToolbox.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9A735D41A3704E60099E199 /* ViewController.swift in Sources */,
+				A9A736131A377BAB0099E199 /* ForgotPasswordViewController.swift in Sources */,
+				A9A735D41A3704E60099E199 /* SignUpViewController.swift in Sources */,
+				A9A736111A3707660099E199 /* testDataCustom.m in Sources */,
 				A9A735D21A3704E60099E199 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,9 +420,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.5.0",
+				);
 				INFOPLIST_FILE = LoginDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoginDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -348,9 +438,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.5.0",
+				);
 				INFOPLIST_FILE = LoginDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LoginDemo-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
